@@ -13,7 +13,7 @@ export const MSreApiRequest=(params)=>{
     mask: true,
   });
 
-  const baseUrl = "http://192.168.31.52:8081/api/hwd/v1";
+  const baseUrl = "http://localhost:8081/api/hwd/v1";
   // 如果data为空，那么就自定义一个data，并添加token
   if(params.data === undefined){
     var initparams = {}

@@ -42,22 +42,8 @@
         },
         {
           "id": -1,
-          "name": "算法扩容",
-          "pathName": "pages/algorithmexp/algorithmexp",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
           "name": "关于我们",
           "pathName": "pages/about/about",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "美图公网ip",
-          "pathName": "pages/mtpublicip/mtpublicip",
           "query": "",
           "scene": null
         },
@@ -77,12 +63,6 @@
         {
           "name": "iconlist",
           "pathName": "pages/iconlist/iconlist",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "srp_report",
-          "pathName": "pages/sre/srp/srp",
           "query": "",
           "scene": null
         },

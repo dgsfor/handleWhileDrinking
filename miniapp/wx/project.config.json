@@ -40,7 +40,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.15.0",
-  "appid": "wx7689fe13336df2f6",
+  "appid": "",
   "projectname": "handleWhileDrinking",
   "debugOptions": {
     "hidedInDevtools": []
@@ -71,13 +71,6 @@
       "list": [
         {
           "id": -1,
-          "name": "功能列表",
-          "pathName": "pages/function/function",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
           "name": "首页",
           "pathName": "pages/home/home",
           "query": "",
@@ -99,22 +92,8 @@
         },
         {
           "id": -1,
-          "name": "算法扩容",
-          "pathName": "pages/algorithmexp/algorithmexp",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
           "name": "关于我们",
           "pathName": "pages/about/about",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "美图公网ip",
-          "pathName": "pages/mtpublicip/mtpublicip",
           "query": "",
           "scene": null
         },

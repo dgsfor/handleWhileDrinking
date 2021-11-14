@@ -1,0 +1,41 @@
+<cu-custom bgImage="https://www.mtjsoft.cn/media/wanandroid/txtopbg.jpg">
+	<view slot="content">Handle While Drinking</view>
+</cu-custom>
+
+<swiper class="card-swiper square-dot" indicator-dots="true" indicator-color='#1B82D1' indicator-active-color='#f00' autoplay='true' circular='true' interval='3000' duration='500'>
+	<swiper-item wx:for="{{swiperList}}" wx:key="image_desc">
+		<view class="swiper-item shadow">
+			<image class='imageBener' mode="aspectFill" src="{{item.image_url}}"></image>
+		</view>
+	</swiper-item>
+</swiper>
+
+<van-divider />
+<text style="padding: 20rpx;font-size: 36rpx">运维产品</text>
+<van-divider />
+<view class="grid col-3 padding-sm">
+  <view class="padding-sm" wx:for="{{OpsProductList}}" wx:key="product_name">
+    <view class="bg-{{colorArr[index%colorCount].name}} padding radius text-center shadow-blur" style="height:150rpx;" id='{{item.product_name}}'  data-title="{{item.product_name}}" >
+      
+      <view class="text-lg">{{item.product_name}}</view>
+    </view>
+  </view>
+</view>
+
+<view class="meitu_product">
+    <text>公司产品</text>
+    <van-divider />
+    <view class="product_list">
+        <van-grid column-num="4" gutter="{{ 10 }}">
+            <van-grid-item
+            use-slot
+            wx:for="{{productList}}"
+            wx:for-item="item"
+            wx:key="product_name">
+                <image mode="widthFix" style="width: 100%; height: 90px;" src="{{item.product_icon_url}}"></image>
+                <view class="product_name">{{item.product_name}}</view>
+            </van-grid-item>
+        </van-grid>
+    </view> 
+</view>
+

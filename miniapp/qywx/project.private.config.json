@@ -1,0 +1,104 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "功能列表",
+          "pathName": "pages/function/function",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "首页",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我的",
+          "pathName": "pages/account/account",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "登录",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "算法扩容",
+          "pathName": "pages/algorithmexp/algorithmexp",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "关于我们",
+          "pathName": "pages/about/about",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "美图公网ip",
+          "pathName": "pages/mtpublicip/mtpublicip",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "qywxlogin",
+          "pathName": "pages/qywxlogin/qywxlogin",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "workstations",
+          "pathName": "pages/workstations/workstations",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "iconlist",
+          "pathName": "pages/iconlist/iconlist",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "srp_report",
+          "pathName": "pages/sre/srp/srp",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "wxlogin",
+          "pathName": "pages/wxlogin/wxlogin",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "account",
+          "pathName": "pages/account/account",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

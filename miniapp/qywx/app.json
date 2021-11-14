@@ -1,0 +1,68 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/workstations/workstations",
+    "pages/message/message",
+    "pages/account/account",
+    "pages/account/about/about",
+    "pages/qywxlogin/qywxlogin",
+    "pages/iconlist/iconlist"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1B82D1",
+    "navigationBarTitleText": "移动端运维工具",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f5f5f5",
+    "navigationStyle": "custom"
+  },
+  "tabBar":{
+    "color": "#8A8A8A",
+    "selectedColor": "#1B82D1",
+    "backgroundColor": "#FFF",
+    "list":[
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "icon/_home.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/workstations/workstations",
+        "text": "工作台",
+        "iconPath": "icon/_function.png",
+        "selectedIconPath": "icon/function.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "icon/_message.png",
+        "selectedIconPath": "icon/message.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "我的",
+        "iconPath": "icon/_account.png",
+        "selectedIconPath": "icon/account.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "van-button": "@vant/weapp/button/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-action-sheet": "@vant/weapp/action-sheet/index",
+    "van-divider": "@vant/weapp/divider/index",
+    "van-search": "@vant/weapp/search/index",
+    "van-empty": "@vant/weapp/empty/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-collapse": "@vant/weapp/collapse/index",
+    "van-collapse-item": "@vant/weapp/collapse-item/index",
+    "van-tag": "@vant/weapp/tag/index",
+    "van-switch": "@vant/weapp/switch/index",
+    "f2": "@antv/wx-f2"
+  },
+  "sitemapLocation": "sitemap.json"
+}

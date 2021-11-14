@@ -1,0 +1,43 @@
+<view class="UCenter-bg">
+  <!-- 微信登录接口 -->
+  <image wx:if="{{!isLogin}}" src="/icon/header.png" class="png" style="border-radius: 50%;margin-bottom: 10rpx;" mode="widthFix" bindtap='wxLogin'></image>
+  <image wx:else src="{{avatarUrl}}" class="png" style="border-radius: 50%;margin-bottom: 10rpx;" mode="widthFix" bindtap='wxLogin'></image>
+
+  <view wx:if="{{!isLogin}}">
+    <view class='notice_login'>
+      <text>请点击头像登录</text>
+    </view>
+  </view>
+  <view wx:else>
+    <view class="notice_login">
+    姓名：{{nickName}}
+    </view>
+  </view>
+  <image src="https://www.mtjsoft.cn/media/wanandroid/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+</view>
+
+
+
+<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+
+  <view class="cu-item arrow">
+      <view class="content" bindtap="showQrcode">
+        <text class="cuIcon-appreciatefill text-red"></text>
+        <text class="text-grey">加我微信</text>
+      </view>
+    </view>
+
+  <view class="cu-item arrow">
+    <navigator class="content" url="/pages/account/about/about" hover-class="none">
+      <text class="cuIcon-emoji text-orange"></text>
+      <text class="text-grey">关于我们</text>
+    </navigator>
+  </view>
+
+  <view class="cu-item arrow" bindtap='wxloginout' wx:if="{{isLogin}}">
+    <view class="content">
+      <text class="cuIcon-forward text-red"></text>
+      <text class="text-grey">退出登陆</text>
+    </view>
+  </view>
+</view>

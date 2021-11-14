@@ -1,0 +1,29 @@
+.tower-swiper .tower-item {
+  transform: scale(calc(0.5 + var(--index) / 10));
+  margin-left: calc(var(--left) * 100rpx - 150rpx);
+  z-index: var(--index);
+}
+
+swiper {
+width: 100%;
+height: 300rpx;
+}
+
+.home_swiper swiper {
+  width: 750rpx;
+  height: 340rpx;
+  text-align: center;
+}
+.home_swiper swiper image {
+  padding: 10rpx;
+  width: 90%;
+}
+.meitu_product text {
+  padding: 20rpx;
+  font-size: 36rpx;
+}
+.meitu_product .product_list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}

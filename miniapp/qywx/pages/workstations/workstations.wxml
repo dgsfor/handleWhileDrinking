@@ -1,0 +1,46 @@
+<scroll-view scroll-y="{{modalName==null}}" class="page {{modalName!=null?'show':''}}">
+  <cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+    <view slot="backText">返回</view>
+    <view slot="content">工作台</view>
+  </cu-custom>
+
+
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title text-orange "></text> SRE
+    </view>
+  </view>
+  <view class="cu-list grid col-{{gridCol}} {{gridBorder?'':'no-border'}}">
+    <view class="cu-item" wx:for="{{sreList}}" wx:key="path" wx:if="{{index<gridCol*10}}">
+      <view class="cuIcon-{{item.icon}} text-{{item.color}}" data-path="{{item.path}}" bindtap="jumpTo"></view>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title text-orange "></text> DBA
+    </view>
+  </view>
+  <view class="cu-list grid col-{{gridCol}} {{gridBorder?'':'no-border'}}">
+    <view class="cu-item" wx:for="{{dbaList}}" wx:key="path" wx:if="{{index<gridCol*10}}">
+      <view class="cuIcon-{{item.icon}} text-{{item.color}}" data-path="{{item.path}}" bindtap="jumpTo">
+      </view>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+
+    <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title text-orange "></text> 监控查看
+    </view>
+  </view>
+  <view class="cu-list grid col-{{gridCol}} {{gridBorder?'':'no-border'}}">
+    <view class="cu-item" wx:for="{{monitorList}}" wx:key="path" wx:if="{{index<gridCol*10}}">
+      <view class="cuIcon-{{item.icon}} text-{{item.color}}" data-path="{{item.path}}" bindtap="jumpTo">
+      </view>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+
+</scroll-view>

@@ -1,0 +1,8 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">登录</view>
+</cu-custom>
+
+<view class='bg-white' style="background-color: #fff;">
+  <view class='loginbtu' bindtap='qywxlogin'>企业微信授权登录</view>
+</view>

@@ -1,0 +1,25 @@
+<!--pages/about/about.wxml-->
+<cu-custom bgColor="bg-gradual-green" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">关于</view>
+</cu-custom>
+
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>Handle While Drinking</view>
+  <view class='text-content'>
+    <view>Hi！欢迎使用移动端运维小程序！</view>
+    <view class='margin-top-sm'>该项目旨在解放运维笨重的背包和电脑，让我们更多的操作可以在移动端完成。</view>
+    <view class='margin-top-sm'>目前该项目有ios、android、小程序三端，欢迎大家咨询使用。接下来也会慢慢新增一系列常用操作到移动端，让运维生活更美好！</view>
+    <view class='margin-top-sm'>更多功能敬请期待！</view>
+
+    <van-divider contentPosition="center">应用</van-divider>
+
+    <view>安卓：whyme</view>
+    <view>IOS：mtmops</view>
+    <view class="application_icon">
+      <image mode="widthFix" src="../../../icon/android.jpg"></image>
+      <image mode="widthFix" src="../../../icon/ios.jpg"></image>
+    </view>
+    
+  </view>
+</view>

@@ -1,0 +1,56 @@
+<cu-custom bgImage="https://www.mtjsoft.cn/media/wanandroid/txtopbg.jpg">
+  <view slot="content">消息列表</view>
+</cu-custom>
+
+<view class="cu-timeline margin-top">
+<!--  -->
+  <view class="cu-item text-green">
+    <view class="bg-gradual-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">2021年8月9日</view>
+        <view class="cu-tag line-white">功能页切换到新的工作台页面</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>功能页切换到新的工作台页面，并切换到企业微信登录或者微信登录</view>
+      </view>
+    </view>
+  </view>
+  <!--  -->
+  <view class="cu-item text-green">
+    <view class="bg-gradual-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">2020年10月26日</view>
+        <view class="cu-tag line-white">开发功能列表模块</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>后端完成功能列表开发，并对接小程序，完成前端ui的设计和功能开发.</view>
+      </view>
+    </view>
+  </view>
+  <!--  -->
+  <view class="cu-item text-green">
+    <view class="bg-gradual-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">2020年10月22日</view>
+        <view class="cu-tag line-white">完善基础ui</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>确定了小程序ui框架设计，完善ui界面开发.</view>
+      </view>
+    </view>
+  </view>
+  <!--  -->
+  <view class="cu-item text-green">
+    <view class="bg-gradual-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">2020年10月19日</view>
+        <view class="cu-tag line-white">小程序项目启动</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>作为移动端项目之一，小程序是继android、ios项目新增的项目，旨在为我们运维同学创造更好的运维环境和运维手段！</view>
+        <view>同学们，是是否开始解放你的双手了！</view>
+      </view>
+    </view>
+  </view>
+  <!--  -->
+</view>

@@ -63,3 +63,10 @@ go run main.go
 
 <img src="static/5.png" width="50%" height="50%" alt="1" />
 <img src="static/6.png" width="50%" height="50%" alt="1" />
+
+点赞的朋友
+----
+
+[![Stargazers repo roster for @gsgs-libin/handleWhileDrinking](https://reporoster.com/stars/gsgs-libin/handleWhileDrinking)](https://github.com/gsgs-libin/handleWhileDrinking/stargazers)
+
+[![Forkers repo roster for @gsgs-libin/handleWhileDrinking](https://reporoster.com/forks/gsgs-libin/handleWhileDrinking)](https://github.com/gsgs-libin/handleWhileDrinking/network/members)

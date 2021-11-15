@@ -25,10 +25,10 @@
 项目截图
 ----
 
-![png1](static/1.jpg)
-![png2](static/2.jpg)
-![png3](static/3.jpg)
-![png4](static/4.jpg)
+<img src="static/1.jpg" width="50%" height="50%" alt="1" />
+<img src="static/2.jpg" width="50%" height="50%" alt="1" />
+<img src="static/3.jpg" width="50%" height="50%" alt="1" />
+<img src="static/4.jpg" width="50%" height="50%" alt="1" />
 
 如何运行
 ----
@@ -61,5 +61,5 @@ go run main.go
 ----
 下面是我们公司正在使用的企业微信小程序的样子
 
-![png5](static/5.png)
-![png6](static/6.png)
+<img src="static/5.png" width="50%" height="50%" alt="1" />
+<img src="static/6.png" width="50%" height="50%" alt="1" />

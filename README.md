@@ -7,9 +7,8 @@
 
 所以我之前的状态可能是这样的：
 
-![png7](static/7.jpg)
-![png8](static/8.jpg)
-
+<img src="static/7.jpg" width="50%" height="50%" alt="1" />
+<img src="static/8.jpg" width="50%" height="50%" alt="1" />
 
 项目信息
 ----

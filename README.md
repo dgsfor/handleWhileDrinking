@@ -7,8 +7,8 @@
 
 所以我之前的状态可能是这样的：
 
-![png7](static/7.png)
-![png8](static/8.png)
+![png7](static/7.jpg)
+![png8](static/8.jpg)
 
 
 项目信息
@@ -26,10 +26,10 @@
 项目截图
 ----
 
-![png1](static/1.png)
-![png2](static/2.png)
-![png3](static/3.png)
-![png4](static/4.png)
+![png1](static/1.jpg)
+![png2](static/2.jpg)
+![png3](static/3.jpg)
+![png4](static/4.jpg)
 
 如何运行
 ----
